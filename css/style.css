@@ -1,0 +1,94 @@
+/*      Header         */
+
+body{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+h2{
+    position: relative;
+    float: right;
+    top: 20px;
+
+    color: rgb(2, 85, 110);
+
+    padding-right: 10px;
+    
+}
+
+
+/* Navigation */
+nav{
+    background-color: rgb(3, 138, 216);
+    width: 200px;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+li{
+    margin: 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Text */
+
+p{
+    text-indent: 20px;
+}
+
+.container{
+    position: relative;
+    float: right;
+
+    width: 840px;
+    top: -120px;
+}
+
+.zaglText{
+    color: rgb(2, 13, 110);
+}
+
+.podcherc{
+    color: rgb(0, 82, 158);
+    border-bottom: 1px solid rgb(2, 85, 110);   
+}
+
+.video{
+    width: 600px;
+    height: 300px;
+}
+
+.containerText{
+    background-color: rgba(101, 247, 132, 0.705);
+}
+
+/* Footer */
+
+.containerFooter{
+    position: absolute;
+    top: 825px;
+    white-space: nowrap;
+}
+
+.adress{
+    position: absolute;
+    top: 870px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Cursi site */
+
+.oglav{
+    
+}
+
