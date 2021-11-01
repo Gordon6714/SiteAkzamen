@@ -38,6 +38,11 @@ a{
     color: white;
 }
 
+a:hover{
+    color: blue;
+    transition: 0.2s linear;
+}
+
 
 /* Text */
 
@@ -88,7 +93,53 @@ p{
 
 /* Cursi site */
 
-.oglav{
-    
+.tableOglav{
+    position: relative;
+    left: 330px;
+    top: -120px;
 }
+
+
+
+
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th{
+    border: 1px solid #34689b;
+    width: 350px;
+}
+
+td{
+    border: 1px solid  #34689b;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.nizStroc{
+ text-align: right;
+}
+
+.otstup{
+    padding-right: 1px;
+}
+
+.wide{
+    width: 30px;
+}
+
+#colorTable{
+    background-color: color="#ddf4ff";
+}
+
+
+
+
+
+
+
+
 

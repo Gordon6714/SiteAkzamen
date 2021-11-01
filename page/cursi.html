@@ -5,6 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..//css/style.css">
+    <style>
+        h1{
+            margin-bottom: 1px;
+            margin-left: 200px;
+        }
+
+        .silka{
+            color: black;
+        }
+
+        a:hover{
+            color:blue;
+            transition: 0.2s linear;
+        }
+    </style>
 </head>
 <body>
     <header class="head">
@@ -15,7 +30,7 @@
     <nav>
         <ul>
         <li ><a href="../index.html">Главная</a></li>
-        <li> <a href="page/cursi.html">Курсы</a>    </li>
+        <li> <a href="../page/cursi.html">Курсы</a>    </li>
         <li> <a href="#">Форматы</a>  </li>
         <li> <a href="#">Тесты</a>    </li>
         <li> <a href="#">Контакты</a> </li>
@@ -24,8 +39,41 @@
 
     <section>
 
-        <div>
-            <h1 class="oglav">Курсы по вебразработке</h1>
+        <div class="tableOglav">
+            <h1 >Курсы по вебразработке</h1>
+            <table>
+                <tr bgcolor="#ddf4ff">
+                    <th>Название курса</th>
+                    <th class="wide">Ссылка</th>
+                </tr>
+                <tr>
+                    <td>HTML и CSS Уровень 2. Кроссбраузерная вёрстка, основы юзабилити, HTML5 и CSS3</td>
+                    <td><a class="silka" href="http://www.specialist.ru/course/ashtml2-a">http://www.specialist.ru/course/ashtml2-a</a></td>
+                </tr>
+                <tr bgcolor="#ddf4ff">
+                    <td>JavaScript Уровень 1. Основы веб-программирования</td>
+                    <td><a class="silka" href="http://www.specialist.ru/course/oprveb-a"> http://www.specialist.ru/course/oprveb-a </a></td>
+                </tr>
+                <tr>
+                    <td>JavaScript Уровень 2. Расширенные возможности</td>
+                    <td><a class="silka" href="http://www.specialist.ru/course/dzhsk-b">http://www.specialist.ru/course/dzhsk-b</a></td>
+                </tr>
+                <tr bgcolor="#ddf4ff">
+                    <td>PHP Уровень 1. Основы создания сайтов</td>
+                    <td><a class="silka" href="http//www.specialist.ru/course/rnr1-a">http//www.specialist.ru/course/rnr1-a</a></td>
+                </tr>
+                <tr>
+                    <td>PHP Уровень 2. Разработка web- сайтов и взаимодействие с MySQL</td>
+                    <td><a class="silka" href="http//www.specialist.ru/course/rnr2-a">http//www.specialist.ru/course/rnr2-a</a></td>
+                </tr>
+                <tr bgcolor="#ddf4ff">
+                    <td>MySQL 5. Проектирование и создание баз данных для web</td>
+                    <td><a class="silka" href="http://www.specialist.ru/course/mskvl">http://www.specialist.ru/course/mskvl</a></td>
+                </tr>
+                <tr class="niz">
+                    <td class="nizStroc" colspan="2"><b>Звоните +7(495)787-33-00</b></td>
+                </tr>
+            </table>
         </div>
 
     </section>
