@@ -136,6 +136,93 @@ td{
 }
 
 
+/* List Forma */
+
+.site_forma{
+    position: relative;
+    width: 200px;
+    left: 600px;
+    top: -110px;
+}
+
+.nameVvod{
+    position: relative;
+    left: -150px;
+    top: 32px;
+}
+
+.PoleName{
+    width: 140px;
+    
+
+    position: relative;
+    left: 82px;
+    
+}
+
+.Theme{
+    position: relative;
+    left: -150px;
+}
+
+.SelectTheme{
+    position: relative;
+    top: -32px;
+    left: 70px;
+
+    width: 160px;
+}
+
+.ViborTime{
+
+    position: relative;
+    top: -30px;
+    left: -150px;
+
+    width: 270px;
+}
+
+.rbBlock{
+    width: 300px;
+
+    position: relative;
+    left: -130px;
+    top: -38px;
+}
+
+.TextArena{
+    width: 355px;
+    
+}
+
+.txtArena{
+    position: relative;
+    left: -130px;
+    top: -30px;
+}
+
+.chBox{
+    width: 400px;
+
+    position: relative;
+    left: -130px;
+    top: -20px;
+}
+
+.btnSend{
+    position: relative;
+    left: 65px;
+    top: -4px;
+}
+
+.btnClear{
+    position: relative;
+    left: 155px;
+    top: -25px;
+}
+
+
+
 
 
 

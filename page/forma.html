@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Анкета</title>
+
+    <style>
+        .zaglav{
+            font-size: 24px;
+
+            position: relative;
+            top: 40px;
+            left: -150px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <header class="head">
+            <img src="../img/logo.gif">
+            <h2>Учебный Центр "Специалист" при МГТУ имю Н.Э.Баумана</h2>
+    
+        </header>
+        <nav>
+            <ul>
+            <li ><a href="../index.html">Главная</a></li>
+            <li> <a href="../page/cursi.html">Курсы</a>    </li>
+            <li> <a href="../page/forma.html">Форматы</a>  </li>
+            <li> <a href="#">Тесты</a>    </li>
+            <li> <a href="#">Контакты</a> </li>
+            </ul>
+        </nav>
+
+        <form class="site_forma">
+            <div> <p class="zaglav"><b> Форма связи </b></p></div>
+            <div> <p class="nameVvod"> Как вас зовут </p> </div>
+            <input class="PoleName" name="NamePole">
+
+            <div> <p class="Theme"> Тема запроса </p> </div>
+            <select class="SelectTheme" name="themeZapr" required="required">
+                <option value="">Запись на курсы</option>
+                <option>Оформить справку</option>
+                <option>Уточнить свои данные</option>
+            </select>
+
+            <div> <p class="ViborTime"> Когда Вам удобней ожидать ответ? </p> </div>
+            <div class="rbBlock">
+                <input type="radio" name="radioBtn" value="rb_One"><label>Сейчас</label>
+                <input type="radio" name="radioBtn" value="rb_2"><labe>10:00 - 17:00</labe>
+                <input type="radio" name="radioBtn" value="rb_3"><label>17:00 - 20:00</label>
+            </div>
+            <div class="txtArena">
+            <textarea class="TextArena" name="Message" placeholder="Введите сообщение" rows="8"></textarea>
+            </div>
+            <div class="chBox">
+            <input type="checkbox" name="ckBox"><label>Соглашаюсь на обработку персональных данных</label>
+            </div>
+            <div class="btnSend"><input type="submit" value="Отправить"></div>
+            <div class="btnClear"><input type="reset" value="Очистить"></div>
+
+
+        </form>
+</body>
+</html>
